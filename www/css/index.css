@@ -1,0 +1,151 @@
+body {
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	
+	margin: 0;
+	padding: 0;
+}
+
+/*THIS SHIT IS ALL FOR THE MOTHERFUCKING TITLE SCREEN OKAY NIGGAS*/
+
+#titleTop {
+	position: fixed;
+    top: 0px;
+	height:75%;
+	width:100%;	
+	background-color:#2B76E6;
+	display: table;
+}
+
+#titleBottom {
+	position: fixed;
+    bottom: 0px;
+	height:25%;
+	width:100%;
+	background-color:#FFF;
+	display: table;
+}
+
+#titleTopText {
+	font-size:60px;
+    font-weight:normal;
+	color:white;
+	text-align:center;
+	display: table-cell;
+    vertical-align: middle;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+#titleBottomText {
+	font-size:60px;
+    font-weight:normal;
+	color:#2B76E6;
+	text-align:center;
+	display: table-cell;
+    vertical-align: middle;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+.circleBaseTitle {
+    border-radius: 50%;
+	vertical-align: middle;
+	text-align: center;
+	display: table;
+    margin: 0 auto;
+	color:#2B76E6;
+	font-size:25px;
+}
+
+.type3Title {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 7px solid #2B76E6;
+	display: table;
+    margin: 0 auto;
+}
+
+#circleTextTitle {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#titleCredits {
+	font-size:20px;
+    font-weight:normal;
+	color:white;
+	text-align:center;
+    vertical-align: middle;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+
+#titleRight {
+	position: fixed;
+    right: 0px;
+	height:100%;
+	width:50%;	
+	background-color:#2B76E6;
+	display: table;
+}
+
+#titleLeft {
+	position: fixed;
+    left: 0px;
+	height:100%;
+	width:50%;
+	display: table;
+    color:#2B76E6
+    
+}
+
+
+
+
+    #stuck {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        width: 180px;
+        overflow-y: auto;
+        background-color: #eee;
+		display: table-cell;
+		 vertical-align: middle;
+  text-align: center;
+		
+    }
+    #not-stuck {
+        margin-left: 200px;
+    }
+	
+	#menuCircleSpan {
+	display: inline-block;
+	}
+	
+	
+	.circleBaseMenu {
+    border-radius: 50%;
+	vertical-align: middle;
+	text-align: center;
+	display: table;
+    margin: 0 auto;
+	color:#2B76E6;
+	font-size:15px;
+}
+
+.type3Menu {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 5px solid #2B76E6;
+	display: table;
+    margin: 0 auto;
+}
+
+#circleTextMenu {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
